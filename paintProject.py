@@ -5,7 +5,7 @@
 import math
 
 # STEP ONE
-# Request usser input
+# Request user input
 width = float(input("Wall width: "))
 height = float(input("Wall height: "))
 cost = float(input("Cost of one paint can: "))
@@ -28,7 +28,7 @@ print(f'Paint needed: {coverage: .3f} gallons.')
 totalCans = math.ceil(coverage)
 
 # Output
-print("Cans neede: ", totalCans, "cans(s)")
+print("Cans needed: ", totalCans, "cans(s)")
 
 # STEP FOUR
 # Calculate and output the paint cost, sales tax of 7%, and total cost. 
