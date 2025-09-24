@@ -2,6 +2,8 @@
 # Sept. 23rd, 2025
 # Paint Project
 
+import math
+
 # STEP ONE
 # Request usser input
 width = float(input("Wall width: "))
@@ -18,7 +20,7 @@ print(f'Wall area: {area: .1f} sq ft') # needs format specifier
 coverage = float(area/350)
 
 # Output
-print(f'Paint needed: {coverage: .2f} gallons.')
+print(f'Paint needed: {coverage: .3f} gallons.')
 
 # STEP THREE
 # Calculate the number of gallon cans needed to paint the wall area
